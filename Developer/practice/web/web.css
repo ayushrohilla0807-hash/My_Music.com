@@ -1,0 +1,120 @@
+body{
+    background-color: #FFF2D0;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    max-height: 20px;
+    font-size: 1.5rem;
+    background-color: #FFB2B2;
+    padding: 15px 40px;
+    border-radius: 1rem;
+    border: solid 2px #ba6767;
+
+}
+.se{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+#logo img{
+    height: 2.5rem;
+    border-radius: 10px;
+}
+#logo{
+    align-items: center;
+    display: flex;
+    background-size:cover;
+}
+.link a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.link:hover{
+    color: red;
+}
+.Anoucement{
+    background-color: #FFFBF1;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 5px 5px;
+}
+
+.product_1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6rem;
+    background-color: #fba89c;
+    padding: 30px ;
+    border: 2px solid #c6776c;
+    border-radius: 2rem;
+    
+}
+.prod1 img{
+    height: 25rem;
+    padding: 20px 20px;
+    border-radius: 3rem;
+    width: 300px;
+}
+.prod1 {
+    background-color: #c8bea5;
+    padding: 10px 10px;
+    border-radius: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.prod1:hover{
+    box-shadow: 0px 6px 15px #e4d4d4;
+    cursor: pointer;
+}
+button{
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #d29188;
+    color: #e4d4d4;
+    font-weight: bold;
+
+}
+.slide{
+    display: flex;
+    margin-top: 3rem;
+    padding: 10px 10px;
+    background-color: #dedede;
+    border-radius: 2rem;
+}
+
+.slide img{
+
+    height: 12rem;
+    width: 22rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #E36A6A;
+    display: flex ;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.footer-content {
+    justify-content:space-evenly ;
+    height: 14rem;
+    
+}
+
+button:hover{
+    cursor: pointer;
+
+}

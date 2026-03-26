@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNZEE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOGIN PAGE -->
+    <!-- <div id="login-page" class="login-box">
+        <h1>Login</h1>
+        <input type="text" id="username" placeholder="Enter your name">
+        <input type="password" id="password" placeholder="Enter password">
+        <button id="login-btn">Login</button>
+        <p id="login-msg"></p>
+    </div>
+ -->
+
+    <!-- GAME PAGE -->
+    <div id="game-page">
+
+        <h1>Welcome To Game</h1>
+
+        <h2 id="welcome-user" style="text-align:center; margin-top: 10px;"></h2>
+
+         <div style="text-align:center; margin-top: 10px;">
+            <button id="logout-btn">Logout</button>
+        </div> 
+
+        <div class="choices">
+            <div class="choice" id="paper">
+                <img src="paper.png"/>
+            </div>
+            <div class="choice" id="scissor">
+                <img src="scissor.jpeg"/>
+            </div>
+            <div class="choice" id="rock">
+                <img src="stone.jpeg"/>
+            </div>
+        </div>
+
+        <div class="score-board">
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>YOU</p>
+            </div>
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p>COMPUTER</p>
+            </div>
+        </div>
+
+        <div class="msg-container">
+            <p id="msg"> Play your move</p>
+        </div>
+
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>

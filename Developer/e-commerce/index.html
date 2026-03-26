@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luxury Watches</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  
+    <header>
+        <h1 class="logo">LUXURY WATCHES</h1>
+        <div class="cart">
+            🛒 Cart: <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    
+    <section class="se">
+        <h2>Timeless Elegance</h2>
+        <p>Discover premium watches crafted with perfection.</p>
+    </section>
+
+  
+    <section class="products">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49" alt="Watch 1">
+            <h3>Royal Chronograph</h3>
+            <p class="price">₹45,000</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="shopping.webp" alt="Watch 2">
+            <h3>Gold Prestige</h3>
+            <p class="price">₹75,000</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="shopping (1).webp" alt="Watch 3">
+            <h3>Classic Elite</h3>
+            <p class="price">₹60,000</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+    </section>
+
+    
+    <footer>
+        <p>© 2026 Luxury Watches. All Rights Reserved.</p>
+    </footer>
+
+<script>
+    let count = 0;
+
+    function addToCart() {
+        count++;
+        document.getElementById("cart-count").innerText = count;
+        alert("Product added to cart!");
+    }
+</script>
+
+</body>
+</html>

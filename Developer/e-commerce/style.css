@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f9ff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #0077b6;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.login-btn {
+    padding: 8px 15px;
+    border: none;
+    background-color: white;
+    color: #0077b6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #00b4d8, #0077b6);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box input {
+    padding: 12px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-box button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #023e8a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Features */
+.features {
+    padding: 50px;
+    text-align: center;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Upload Section */
+.upload {
+    text-align: center;
+    padding: 50px;
+    background-color: #e0f7ff;
+}
+
+.upload-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0077b6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #023e8a;
+    color: white;
+    margin-top: 30px;
+}
