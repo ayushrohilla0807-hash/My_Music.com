@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Music.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container2">
+            <p id="back">🔙</p>
+            <p id="next">🔜</p>
+    
+            <div class="music">
+                <h1>Now Playing</h1>
+                <img src="download.jpeg" alt="album">
+                <div id="p">
+                <h2>KHAT</h2>
+                <p>Navjot Ahuja</p>
+                </div>
+
+            <audio id="song">
+                <source src="Khat Navjot Ahuja (pagalall.com).mp3" type="audio/mp3">
+            </audio>
+            
+            <input type="range" value="0" id="progress">
+            
+            <div class="time">
+                <span id="currentTime">0:00</span>
+                <!-- <span id="duration">0:00</span> -->
+            </div>
+
+            <div class="controls">
+                <div>
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-play" id="playIcon" onclick="Playpause()"></i>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="work.js"></script>
+</body>
+</html>
